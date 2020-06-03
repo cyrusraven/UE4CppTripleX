@@ -6,7 +6,7 @@
 void PlayGameAtDifficulty(int difficulty)
 {
     // declaring multiple values for this round
-    int val1, val2, val3;
+    
     // initializing generator
     /*
     std::default_random_engine generator;
@@ -14,13 +14,13 @@ void PlayGameAtDifficulty(int difficulty)
     */
     
     // val1 = distribution(generator);
-    val1 = 1;
-    val2 = 7;
-    val3 = 15;
+    const int val1 = 1;
+    const int val2 = 7;
+    const int val3 = 15;
 
     // declaring sum and product variables
-    int sum = val1 + val2 + val3;
-    int product = val1 * val2 * val3;
+    const int sum = val1 + val2 + val3;
+    const int product = val1 * val2 * val3;
 
 
     std::cout << "difficulty: " << difficulty << std::endl; // quick check
