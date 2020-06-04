@@ -1,3 +1,4 @@
+// preprocessor directives
 #include <iostream>
 #include <ctime>
 #include <random>
@@ -14,15 +15,19 @@ void PlayGameAtDifficulty(int difficulty)
     */
     
     // val1 = distribution(generator);
+    // declaration statements
     const int val1 = 1;
     const int val2 = 7;
     const int val3 = 15;
 
-    // declaring sum and product variables
+    /**
+     * in a multiline comment
+     * declaring sum and product variables
+     */
     const int sum = val1 + val2 + val3;
     const int product = val1 * val2 * val3;
 
-
+    // expression statements
     std::cout << "difficulty: " << difficulty << std::endl; // quick check
     std::cout << "just another day in the BBMP Space Station, unless..." << std::endl;
     std::cout << "OH NO! your air pressure system is malfunctioning (again)!" << std::endl;
@@ -32,7 +37,7 @@ void PlayGameAtDifficulty(int difficulty)
     std::cout << "sum: " << sum << "\n";
     std::cout << "product: " << product << "\n";
     
-    return ;
+    return ; // return statement
 }
 
 // main function in the bottom
