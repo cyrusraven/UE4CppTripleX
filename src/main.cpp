@@ -42,6 +42,8 @@ void PlayGameAtDifficulty(int Difficulty)
     std::cout << "+ The sum is: " << CodeSum << "\n";
     std::cout << "The product is: " << CodeProduct << "\n";
     
+    int PlayerGuess;
+
     return ; // return statement
 }
 
