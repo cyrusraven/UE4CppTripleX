@@ -40,9 +40,29 @@ void PlayGameAtDifficulty(int Difficulty)
 
     std::cout << "+ The first value: " << CodeA << std::endl << "The second value: " << CodeB << std::endl << "The third value: " << CodeC << std::endl;
     std::cout << "+ The sum is: " << CodeSum << "\n";
-    std::cout << "The product is: " << CodeProduct << "\n";
+    std::cout << "+ The product is: " << CodeProduct << "\n";
     
     int PlayerGuess;
+
+    // std::cin >> PlayerGuess;
+
+    int GuessA, GuessB, GuessC;
+
+    std::cout << "First Guess> ";
+    std::cin >> GuessA;
+    std::cout << std::endl;
+    std::cout << "Second Guess> ";
+    std::cin >> GuessB;
+    std::cout << std::endl;
+    std::cout << "Third Guess> ";
+    std::cin >> GuessC;
+    std::cout << std::endl;
+
+    int CodeSum = GuessA + GuessB + GuessC;
+    int CodeProduct = GuessA * GuessB * GuessC;
+
+    std::cout << "You entered: " << GuessA << GuessB << GuessC;
+    std::cout << std::endl;
 
     return ; // return statement
 }
